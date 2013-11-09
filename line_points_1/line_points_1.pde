@@ -18,7 +18,17 @@ void draw(){
    stroke(random(255), random(255), random(255));
    point( random(width), random(height));
    
-   
+   for(int i=0; i< width/scale; i++)
+   {
+     for( int j=0; j< height/scale; j++) {
+       x = i * scale;
+       y = j * scale;
+       
+       avg = ( x+y ) / 2;
+       stroke(x, y, avg );
+       point ( x, y );
+     }
+   }
   
 }
 
