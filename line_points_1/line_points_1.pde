@@ -1,5 +1,7 @@
 /*
    Drawing small dots with points
+   Apply this sketch
+   http://www.openprocessing.org/sketch/100565
 */
 
 int x;
